@@ -1,0 +1,189 @@
+#wash {
+	font-family: "Source Code Pro";
+	margin-left: 1em;
+	margin-bottom: 0em;
+	margin-top: 0.7em;
+	font-size: 5em;
+	font-weight: 300;
+	color: #595959;
+}
+#watch {
+	font-family: "Source Code Pro";
+	margin-left: 2em;
+	margin-top: 0em;
+	font-size: 5em;
+	font-weight: 300;
+	color: #595959;
+	margin-bottom: 0.8em;
+}
+#content {
+	width: 50%;
+	height: 100%;
+}
+#sign {
+	text-align: center;
+	font-family: "Source Code Pro";
+	font-weight: 300;
+	color: #595959;
+	font-size: 2.5em;
+	margin-top: 0em;
+}
+
+#user {
+	text-align: center;
+
+
+}
+#pass {
+	text-align: center;
+}
+form {
+	text-align: center;
+}
+input {
+	font-family: "Source Code Pro";
+	font-weight: 300;
+	margin:0.7em;
+	font-size: 1.8em;
+	height:2.3em;
+	border-radius: 0.6em;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.submit {
+	font-family: "Source Code Pro";
+	font-weight: 300;
+	font-size: 3em;
+	border-radius: 0.1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	letter-spacing: 0.1em;
+	background-color: #ffab40;
+	color:white;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.submit:hover {
+	font-family: "Source Code Pro";
+	font-weight: 300;
+	font-size: 3em;
+	border-radius: 0.1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	letter-spacing: 0.1em;
+	background-color: #e89935;
+	color:white;
+}
+
+#or {
+	font-family: "Source Code Pro";
+	font-weight: 300;
+	font-size: 2em;
+	color: #595959;
+	display: inline;
+}
+
+
+h1 {
+	font-family: "Source Code Pro";
+	font-size: 10em;
+	text-align: center;
+}
+
+.orLine {
+	width: 12em;
+	height: 0.1em;
+	display: inline-block;
+	color: black;
+	background-color: black;
+	outline-color: black;
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#secondTitle {
+	font-family: "Source Code Pro";
+	text-align: center;
+	font-size: 4.5em;
+	font-weight: 300;
+	color: #595959;
+	margin-bottom: 0.3em;
+}
+
+
+#pictures {
+	text-align: center;
+}
+
+#laundry {
+	height: 48em;
+}
+
+.laundryButton {
+	outline-color: black;
+	outline-style: solid;
+	background-color: rgba(199, 84, 64, 0.3);
+	outline-width: 0.2em;
+}
+
+#firstButton {
+	width: 3.6em;
+	height: 2em;
+	position: absolute;
+	top: 23.2em;
+	left: 24.9em;
+}
+
+#secondButton {
+	width: 1.9em;
+	height: 2.8em;
+	position: absolute;
+	top: 52.7em;
+	left: 18.75em;
+}
+
+#thirdButton {
+	width: 4.7em;
+	height: 3em;
+	position: absolute;
+	top: 14.1em;
+	left: 45.2em;
+}
+
+#fourthButton {
+	width: 3.6em;
+	height: 2em;
+	position: absolute;
+	top: 24em;
+	left: 50em;
+}
+
+#fifthButton {
+	width: 1.2em;
+	height: 2em;
+	position: absolute;
+	top: 44.58em;
+	left: 39.6em;
+}
+
+#sixthButton {
+	width: 3.6em;
+	height: 3em;
+	position: absolute;
+	top: 41em;
+	left: 73.6em;
+}
+
+#seventhButton {
+	width: 3em;
+	height: 4em;
+	position: absolute;
+	top: 49.4em;
+	left: 79.5em;
+}
