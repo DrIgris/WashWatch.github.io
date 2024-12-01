@@ -16,9 +16,9 @@
 		</div>
 		
 		<div class="home-icon-container">
-			<img class="home-icon" id="account-icon" src="account.png"/>
-			<img class="home-icon" id="gear-icon"src="gear.png"/>
-			<img class="home-icon" id="bell-icon"src="bell.png"/>			
+			<img class="home-icon" id="account-icon" src="account.png" onclick="account()"/>
+			<img class="home-icon" id="gear-icon"src="gear.png" onclick="gear()"/>
+			<img class="home-icon" id="bell-icon"src="bell.png" onclick="notification()"/>			
 		</div>
 	</div>
 	<div class="home-title-container">
@@ -61,6 +61,15 @@
 	<script>
 		function add() {
 			window.location.href = "washerDryer.html"
+		}
+		function account() {
+			window.location.href = "account.html"
+		}
+		function gear() {
+			window.location.href = "settings.html"
+		}
+		function notification() {
+			window.location.href = "notification.html"
 		}
     </script>
 </body>
