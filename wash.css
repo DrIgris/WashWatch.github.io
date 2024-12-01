@@ -1,20 +1,58 @@
-#wash {
+
+/* Global CSS */
+
+.center {
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+.border-red {
+	border-color: #ff0000ff;
+}
+.border-green {
+	border-color: #38761dff;
+}
+.border-yellow {
+	border-color: #ff9900ff;
+}
+.border-black {
+	border-color: #000000;
+}
+
+.font-red {
+	color: #ff0000ff;
+}
+.font-green {
+	color: #38761dff;
+}
+.font-yellow {
+	color: #ff9900ff;
+}
+.font-black {
+	color: #000000;
+}
+
+
+
+.logo {
 	font-family: "Source Code Pro";
-	margin-left: 1em;
-	margin-bottom: 0em;
-	margin-top: 0.7em;
 	font-size: 5em;
 	font-weight: 300;
 	color: #595959;
 }
-#watch {
-	font-family: "Source Code Pro";
+.wash-logo {
+	margin-left: 1em;
+	margin-bottom: 0em;
+	margin-top: 0.7em;
+	font-weight: 700;	
+}
+.watch-logo {
 	margin-left: 2em;
 	margin-top: 0em;
-	font-size: 5em;
-	font-weight: 300;
-	color: #595959;
-	margin-bottom: 0.8em;
+	font-weight: 700;
 }
 #content {
 	width: 50%;
@@ -26,7 +64,7 @@
 	font-weight: 300;
 	color: #595959;
 	font-size: 2.5em;
-	margin-top: 0em;
+	margin-top: 0.8em;
 }
 
 #user {
@@ -187,3 +225,157 @@ h1 {
 	top: 49.4em;
 	left: 79.5em;
 }
+
+#home {
+	width: 8em;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.title-container {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+	font-family: "Source Code Pro";
+    font-size: 4em;
+    font-weight: 300;
+    border-width: 2px;
+    border-bottom: solid;
+    text-align: center;
+    width: 17em;
+}
+
+.first-letter-bold {
+	font-weight: 700;	
+}
+
+#machines {
+	display: flex;
+    height: 39em;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+#machines div {
+    margin: 3em;
+    text-align: center;
+}
+
+.washer-dryer-choice img {
+	width: 14em;
+    height: 15em;
+}
+
+.washer-dryer-choice {
+    font-family: "Source Code Pro";
+    font-weight: 500;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+/* Machine selection */
+.machine-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.machine-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.machine-status-box {
+    width: 2.3em;
+    height: 2em;
+	border: 1px solid;
+}
+
+.machine-status-row {
+	display: flex;
+	margin-bottom: .5em;
+    align-items: center;
+}
+
+.machine-status-row-red .machine-status-box {
+	background-color: #ff0000ff;
+}
+.machine-status-row-green .machine-status-box {
+	background-color: #38761dff;
+}
+.machine-status-row-yellow .machine-status-box {
+	background-color: #ff9900ff;
+}
+.machine-status-row-black .machine-status-box {
+	background-color: #000000;
+}
+
+.machine-status-dash, .machine-status-text {
+	font-family: arial, sans-serif;
+	font-size: 1.6em;
+	margin-left: 1em;
+}
+
+.machine-choice {
+	display: flex;
+    flex-direction: column;
+    font-family: "Source Code Pro", serif;
+}
+
+.machine-choice {
+	font-size: 2em;
+}
+
+
+.machine-choice-row {
+	display: flex;
+	flex-direction: row;
+}
+/*Dryer Selection*/
+#dryer-machines {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.dryer-choice {
+	width: 4em;
+	border-width: 5px;
+    border-style: solid;
+    text-align: left!important;
+    margin: .05em;
+    padding-left: .1em;
+    padding-right: .1em;
+}
+
+#dryer-title {
+	width: 10em;
+}
+/*Washer selection*/
+#washer-title {
+	width: 11em;
+}
+
+#washer-machines {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.washer-choice {
+	width: 4em;
+	border-width: 5px;
+    border-style: solid;
+    text-align: left!important;
+    margin: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+

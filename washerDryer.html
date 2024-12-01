@@ -2,8 +2,44 @@
 <html>
 <head>
 	<title>Washer or Dryer</title>
+	<link rel="stylesheet" href="wash.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="home" id="home-div" onclick="home()">
+		<img id="home" src="Home.png"/>
+	</div>
+	<div class="title-container">
+		<div class="title" id="machine-title">
+			<span class="first-letter-bold">C</span>hoose <span class="first-letter-bold">W</span>asher or <span class="first-letter-bold">D</span>ryer
+		</div>
+	</div>
+	<div id="machines">
+		<div class="washer-dryer-choice" onclick="washer()">
+			<img id="washer" src="Washer.png"/>
+			<br/>
+			<span>Washer</span>
+		</div>
+		
+		<div class="washer-dryer-choice" onclick="dryer()">
+			<img id="dryer" src="Dryer.png"/>
+			<br/>
+			<span>Dryer</span>
+		</div>
+	</div>
 
+	<script>
+		function washer() {
+			window.location.href = "washer.html"
+		}
+		function dryer() {
+			window.location.href = "dryer.html"
+		}
+		function home() {
+			window.location.href = "home.html"
+		}
+    </script>
 </body>
 </html>

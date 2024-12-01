@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose a Washer</title>
+	<link rel="stylesheet" href="wash.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="machine-container">
+		<div class="machine-header">
+			<div class="machine-status-container">
+				<div class="machine-status-row machine-status-row-red" >
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">Overtime</div>
+				</div>
+				<div class="machine-status-row machine-status-row-green">
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">Empty</div>
+				</div>
+				<div class="machine-status-row machine-status-row-yellow">
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">In-Use</div>
+				</div>
+			</div>
+			<div class="washer-title-container">
+				<div class="title" id="washer-title">
+					<span class="first-letter-bold">W</span>ashers <span class="first-letter-bold">A</span>vailable
+				</div>
+			</div>
+			<div class="machine-status-container-ooo">
+				<div class="machine-status-row machine-status-row-black">
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">Out of service</div>
+				</div>
+			</div>
+		</div>
+		<div id="washer-machines">
+			<div class="machine-choice-row washer-choice-row">
+				<div class="machine-choice washer-choice border-red">
+					1
+					<img id="washer" src="Washer.png"/>
+					<span class="center font-red">+1:01</span>
+				</div>
+				<div class="machine-choice washer-choice border-green" onclick="choose()">
+					2
+					<img id="washer" src="Washer.png"/>
+					<span class="center "></span>
+				</div>
+				<div class="machine-choice washer-choice border-green" onclick="choose()">
+					3
+					<img id="washer" src="Washer.png"/>
+					<span class="center "></span>
+				</div>
+				<div class="machine-choice washer-choice border-red">
+					4
+					<img id="washer" src="Washer.png"/>
+					<span class="center font-red">+5:32</span>
+				</div>
+				<div class="machine-choice washer-choice border-yellow">
+					5
+					<img id="washer" src="Washer.png"/>
+					<span class="center font-yellow">-6:03</span>
+				</div>
+			</div>
+			<div class="machine-choice-row washer-choice-row">
+				<div class="machine-choice washer-choice border-red">
+					6
+					<img id="washer" src="Washer.png"/>
+					<span class="center font-red">+2:17</span>
+				</div>
+				<div class="machine-choice washer-choice border-red">
+					7
+					<img id="washer" src="Washer.png"/>
+					<span class="center font-red">+8:09</span>
+				</div>
+				<div class="machine-choice washer-choice border-black">
+					8
+					<img id="washer" src="Washer.png"/>
+				</div>
+				<div class="machine-choice washer-choice border-green" onclick="choose()">
+					9
+					<img id="washer" src="Washer.png"/>
+				</div>
+				<div class="machine-choice washer-choice border-green" onclick="choose()">
+					10
+					<img id="washer" src="Washer.png"/>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<script>
+		function choose() {
+			window.location.href = "home.html"
+		}
+    </script>
+</body>
+</html>

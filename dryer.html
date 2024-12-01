@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose a dryer</title>
+	<link rel="stylesheet" href="wash.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="machine-container">
+		<div class="machine-header">
+			<div class="machine-status-container">
+				<div class="machine-status-row machine-status-row-red" >
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">Overtime</div>
+				</div>
+				<div class="machine-status-row machine-status-row-green">
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">Empty</div>
+				</div>
+				<div class="machine-status-row machine-status-row-yellow">
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">In-Use</div>
+				</div>
+			</div>
+			<div class="dryer-title-container">
+				<div class="title" id="dryer-title">
+					<span class="first-letter-bold">D</span>ryers <span class="first-letter-bold">A</span>vailable
+				</div>
+			</div>
+			<div class="machine-status-container-ooo">
+				<div class="machine-status-row machine-status-row-black">
+					<div class="machine-status-box"></div>
+					<div class="machine-status-dash">-</div>
+					<div class="machine-status-text">Out of service</div>
+				</div>
+			</div>
+		</div>
+		<div id="dryer-machines">
+			<div class="machine-choice-row dryer-choice-row">
+				<div class="machine-choice dryer-choice border-red">
+					1
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-red">+3:16</span>
+				</div>
+				<div class="machine-choice dryer-choice border-yellow">
+					2
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-yellow">+31:21</span>
+				</div>
+				<div class="machine-choice dryer-choice border-red">
+					3
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-red">+5:45</span>
+				</div>
+				<div class="machine-choice dryer-choice border-yellow">
+					4
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-yellow">+13:12</span>
+				</div>
+				<div class="machine-choice dryer-choice border-green" onclick="choose()">
+					5
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+				<div class="machine-choice dryer-choice border-green" onclick="choose()">
+					6
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+				<div class="machine-choice dryer-choice border-red">
+					7
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-red">+9:13</span>
+				</div>
+			</div>
+			<div class="machine-choice-row dryer-choice-row">
+				<div class="machine-choice dryer-choice border-green" onclick="choose()">
+					8
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+				<div class="machine-choice dryer-choice border-black">
+					9
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+				<div class="machine-choice dryer-choice border-black">
+					10
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+				<div class="machine-choice dryer-choice border-yellow">
+					11
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-yellow">+23.47</span>
+				</div>
+				<div class="machine-choice dryer-choice border-green" onclick="choose()">
+					12
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+				<div class="machine-choice dryer-choice border-red">
+					13
+					<img id="dryer" src="Dryer.png"/>
+					<span class="center font-red">+1:12</span>
+				</div>
+				<div class="machine-choice dryer-choice border-green" onclick="choose()">
+					14
+					<img id="dryer" src="Dryer.png"/>
+				</div>
+			</div>			
+		</div>
+	</div>
+<script>
+		function choose() {
+			window.location.href = "home.html"
+		}
+    </script>
+</body>
+</html>
