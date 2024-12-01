@@ -45,7 +45,6 @@
 	font-family: "Source Code Pro";
 	font-size: 5em;
 	font-weight: 300;
-	color: #595959;
 }
 .wash-logo {
 	margin-left: 1em;
@@ -64,7 +63,6 @@
 	text-align: center;
 	font-family: "Source Code Pro";
 	font-weight: 300;
-	color: #595959;
 	font-size: 2.5em;
 	margin-top: 0.8em;
 }
@@ -124,7 +122,6 @@ input {
 	font-family: "Source Code Pro";
 	font-weight: 300;
 	font-size: 2em;
-	color: #595959;
 	display: inline;
 }
 
@@ -152,7 +149,6 @@ h1 {
 	text-align: center;
 	font-size: 4.5em;
 	font-weight: 300;
-	color: #595959;
 	margin-bottom: 0.3em;
 }
 
@@ -526,13 +522,13 @@ h1 {
 
 /*Account Change*/
 .change-submit {
+	margin-top: 5em;
 	display: flex;
     border: 3px solid #ff9900;
     background-color: #999999ff;
     color: white;
-    margin: 1em;
-    width: 15em;
-    height: 2em;
+    width: 11em;
+    height: 3em;
     justify-content: center;
     align-items: center;
 }
@@ -541,4 +537,17 @@ h1 {
 	font-family: "Source Code Pro";
     font-weight: 300;
     font-size: 2em;
+}
+
+.change-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2em;
+}
+
+.change-input-field {
+	text-align: center;
+	border-color: #ffab40;
+	border-style: solid;
 }
