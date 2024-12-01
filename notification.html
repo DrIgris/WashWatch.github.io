@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notifications</title>
+	<link rel="stylesheet" href="wash.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="home" id="home-div" onclick="home()">
+		<img id="home" src="Home.png"/>
+	</div>
+	<div class="title-container">
+		<div class="title" id="notification-title">
+			<span class="first-letter-bold">N</span>otifications 
+		</div>
+	</div>
+	<div class="notification-content">
+		<div class="notifications-rows">
+			<div class="noti-row">
+				<img class="noti-dot" src="dot.png"/>
+				<div class="notifications-content-text">
+					11:33 PM: Your clothes have finished drying
+				</div>
+			</div>
+			<div class="noti-row">
+				<img class="noti-dot" src="dot.png"/>
+				<div class="notifications-content-text">
+					10:25 PM: Laundry Room A117 is Out of Service 
+				</div>
+			</div>
+			<div class="noti-row">
+				<img class="noti-dot" src="dot.png"/>
+				<div class="notifications-content-text">
+					9:45 PM: Please collect your clothes from the washer
+				</div>
+			</div>
+			<div class="noti-row">
+				<img class="noti-dot" src="dot.png"/>
+				<div class="notifications-content-text">
+					9:15 PM: There are 4 washers currently available at your preferred location
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function home() {
+			window.location.href = "home.html"
+		}
+		
+    </script>
+</body>
+</html>

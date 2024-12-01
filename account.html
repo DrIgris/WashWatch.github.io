@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account</title>
+	<link rel="stylesheet" href="wash.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="home" id="home-div" onclick="home()">
+		<img id="home" src="Home.png"/>
+	</div>
+	<div class="title-container">
+		<div class="title" id="account-title">
+			<span class="first-letter-bold">A</span>ccount 
+		</div>
+	</div>
+	<div class="account-content">
+		<div class="account-noti" onclick="change()">
+			<div class="acount-noti-text">
+				<span class="first-letter-bold">C</span>hange <span class="first-letter-bold">L</span>aundry <span class="first-letter-bold">R</span>oom
+			</div>
+		</div>
+		<div class="account-noti" onclick="account()">
+			<div class="account-noti-text">
+				<span class="first-letter-bold">C</span>hange <span class="first-letter-bold">U</span>sername/<span class="first-letter-bold">P</span>assword
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function home() {
+			window.location.href = "home.html"
+		}
+		function change() {
+			window.location.href = "room.html"
+		}
+		function account() {
+			window.location.href = "changeAccount.html"
+		}
+    </script>
+</body>
+</html>
