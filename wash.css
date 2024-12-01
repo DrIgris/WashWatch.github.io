@@ -35,6 +35,10 @@
 	color: #000000;
 }
 
+.first-letter-bold {
+	font-weight: 700;	
+}
+
 
 
 .logo {
@@ -47,12 +51,10 @@
 	margin-left: 1em;
 	margin-bottom: 0em;
 	margin-top: 0.7em;
-	font-weight: 700;	
 }
 .watch-logo {
 	margin-left: 2em;
 	margin-top: 0em;
-	font-weight: 700;
 }
 #content {
 	width: 50%;
@@ -248,10 +250,6 @@ h1 {
     width: 17em;
 }
 
-.first-letter-bold {
-	font-weight: 700;	
-}
-
 #machines {
 	display: flex;
     height: 39em;
@@ -352,6 +350,7 @@ h1 {
     margin: .05em;
     padding-left: .1em;
     padding-right: .1em;
+    margin-right: .4em;
 }
 
 #dryer-title {
@@ -378,4 +377,73 @@ h1 {
     padding-left: .5em;
     padding-right: .5em;
 }
+
+/*Home page*/
+.home-header {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-title {
+	font-family: "Source Code Pro";
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.home-title-container {
+	text-align: center;
+}
+
+.home-icon-container {
+	display: flex;
+    flex-direction: column;
+}
+
+.home-icon {
+	width: 6em;
+	margin: 1em;
+}
+
+.home-machine-container {
+	margin-top: 2em;
+	font-family: "Source Code Pro";
+	font-weight: 300;
+}
+
+#home-location-text {
+	font-size: 2em;
+}
+
+.home-machines {
+	display: flex;
+	flex-direction: row;
+}
+
+.empty-machine {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	border: 2px solid;
+	background-color: #eeeeeeff;
+	width: 10em;
+	margin-right: 0.5em;
+}
+
+.empty-machine-text {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.home-cross-icon {
+	margin-top: 2em;
+	width: 7em;
+}
+
+#home-machine-text {
+	font-size: 2em;
+}
+
 

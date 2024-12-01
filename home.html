@@ -8,16 +8,59 @@
 	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="logo" id="home-logo">
-		<span class="wash-logo">W</span>ash
-		<br/>
-		<span class="watch-logo">W</span>atch
+	<div class="home-header">
+		<div class="logo" id="home-logo">
+			<span class="wash-logo first-letter-bold">W</span>ash
+			<br/>
+			<span class="watch-logo first-letter-bold">W</span>atch
+		</div>
+		
+		<div class="home-icon-container">
+			<img class="home-icon" id="account-icon" src="account.png"/>
+			<img class="home-icon" id="gear-icon"src="gear.png"/>
+			<img class="home-icon" id="bell-icon"src="bell.png"/>			
+		</div>
 	</div>
-	
+	<div class="home-title-container">
+		<div class="home-title">
+			<span class="first-letter-bold">Y</span>our <span class="first-letter-bold">S</span>elected <span class="first-letter-bold">M</span>achines:
+		</div>
+	</div>
+	<div class="home-machine-container">
+		<span id="home-location-text">Location: Laundry A117</span>
+		<div class="home-machines">
+			<div class="machine-choice dryer-choice border-yellow">
+				1
+				<img id="dryer" src="Dryer.png"/>
+				<span class="center font-yellow">-3:16</span>
+			</div>
+			<div class="machine-choice dryer-choice border-yellow">
+				2
+				<img id="dryer" src="Dryer.png"/>
+				<span class="center font-yellow">-31:21</span>
+			</div>
+			<div class="empty-machine" onclick="add()">
+				<span class="empty-machine-text">ADD</span>
+				<span class="empty-machine-text">MACHINE</span>
+				<img class="home-cross-icon" src="cross.png">
+			</div>
+			<div class="empty-machine" onclick="add()">
+				<span class="empty-machine-text">ADD</span>
+				<span class="empty-machine-text">MACHINE</span>
+				<img class="home-cross-icon" src="cross.png">
+			</div>
+			<div class="empty-machine" onclick="add()">
+				<span class="empty-machine-text">ADD</span>
+				<span class="empty-machine-text">MACHINE</span>
+				<img class="home-cross-icon" src="cross.png">
+			</div>
+		</div>
+		<span id="home-machine-text">Machines Used: 2/5</span>
+	</div>
 
 	<script>
-		function home() {
-			window.location.href = "home.html"
+		function add() {
+			window.location.href = "washerDryer.html"
 		}
     </script>
 </body>
